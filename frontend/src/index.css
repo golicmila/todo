@@ -1,38 +1,44 @@
 body {
+ background-color: #86aaec77;
+  font-style:italic;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Baskerville Old Face',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image:url(https://th.bing.com/th/id/R.ff54f3eb32cd17fa3986c240c53a6749?rik=t6%2fg%2fSEDVx8EYQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f8%2fe%2fe%2f53744.jpg&ehk=fUiei7kpVz%2fm4A6cWpnBpVlmRrZDeWT6KgXIMPHEa7k%3d&risl=&pid=ImgRaw&r=0);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+mark {
+  background-color: #012f83;
+  color: #add9e6;
+}
 table {
   width: 100%;
 }
 
 td, th {
-  border: 1px solid #ddd;
+  border: 1px solid rgb(0, 0, 0);
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #e3e3fa;
 }
 
 tr:hover {
-  background-color: #ddd;
+  background-color: rgb(226, 228, 255);
 }
 
 th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #723d46;
-  color: white;
+  background-color: #012f83;
+  color: rgb(255, 255, 255);
 }
